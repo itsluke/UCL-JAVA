@@ -13,6 +13,7 @@ package sess2;
  */
 
 import java.util.Scanner; // Scanner 
+import java.text.DecimalFormat; // Decimal Formater
 
 public class Ext4 {
 
@@ -39,10 +40,15 @@ public class Ext4 {
 //		Calculate temp in Celsius
 		celsiusTemp = (fahrenheitTemp - BASE) * CONVERSION_FACTOR;
 		
-//		Print result
-		System.out.println("Celsius Equivalent: " +  celsiusTemp + "°C\n");
+//		Original Print result
+//		System.out.println("Celsius Equivalent: " +  celsiusTemp + "°C\n");
 		
+//		-- IMPROVEMENTS --
+//		using the decimal formatter from the Ext2 to format output
 		
+//		Create a new decimal formatter (2 decimal places)
+		DecimalFormat twoDecPlcFormatter = new DecimalFormat("0.##");
+		System.out.println("Celsius Equivalent: " +  twoDecPlcFormatter.format(celsiusTemp) + "°C\n");
 	}
 
 }
