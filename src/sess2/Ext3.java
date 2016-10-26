@@ -1,6 +1,9 @@
-package sess2;
-
+//Ext2.java
+//Author: Luke Ngakane
+ 
 // This program prints the sum, difference and product of two decimal numbers.
+
+package sess2;
 
 /*
  * -----------------------
