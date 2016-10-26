@@ -1,4 +1,4 @@
-//Ext4.java
+//Exer4.java
 //Author: Luke Ngakane
  
 // This program Computes the Celsius equivalent of a user given Fahrenheit
@@ -15,7 +15,7 @@ package sess2;
 import java.util.Scanner; // Scanner 
 import java.text.DecimalFormat; // Decimal Formater
 
-public class Ext4 {
+public class Exer4 {
 
 	public static void main(String[] args) {
 		

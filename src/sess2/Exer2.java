@@ -1,4 +1,4 @@
-// Ext2.java
+// Exer2.java
 // Author: Luke Ngakane
     
 /* This program calculates the average of three integers. */ 
@@ -14,7 +14,7 @@ package sess2;
 import java.util.Scanner; // Scanner 
 import java.text.DecimalFormat; // Decimal Formater
 
-public class Ext2 {
+public class Exer2 {
 
 	public static void main(String[] args) {
 		

@@ -1,4 +1,4 @@
-//Ext2.java
+//Exer2.java
 //Author: Luke Ngakane
  
 // This program prints the sum, difference and product of two decimal numbers.
@@ -14,7 +14,7 @@ package sess2;
 import java.util.Scanner; // Scanner 
 import java.text.DecimalFormat; // Decimal Formater
 
-public class Ext3 {
+public class Exer3 {
 	
 	public static void main(String[] args) {
 	
