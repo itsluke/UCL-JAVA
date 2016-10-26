@@ -1,4 +1,4 @@
-//Exer4.java
+//Ext4.java
 //Author: Luke Ngakane
  
 // This program Computes the Celsius equivalent of a user given Fahrenheit
@@ -28,7 +28,7 @@ public class Exer4 {
 		final int BASE = 32;
 		final double CONVERSION_FACTOR = 5.0 / 9.0;
 
-//		Initiate other variabels
+//		Initiate other variables
 		int fahrenheitTemp;
 		double celsiusTemp;
 		
